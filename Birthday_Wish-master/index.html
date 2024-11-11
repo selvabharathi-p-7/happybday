@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Page</title>
+
+    <!-- Bootstrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Font  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/scrollBtn.css" />
+    <link rel="stylesheet" href="./css/confetti.css" />
+    <link rel="stylesheet" href="./css/coutdown.css" />
+    <link rel="stylesheet" href="./css/textAnimation.css" />
+    <link rel="stylesheet" href="./css/timer.css" />
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <link rel="stylesheet" href="./TextSection/style.css">
+    <link rel="stylesheet" href="./footer/css/footer.css">
+    <link rel="stylesheet" href="./footer/css/icon.css">
+
+    <!-- imgLightbox css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <!-- parallax gallery -->
+    <link rel="stylesheet" href="./gallery_parallax/css/style.css">
+
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/responsive1.css" />
+</head>
+
+<body>
+    <!-- Message Before 6 PM -->
+    <div id="wait-message" style="text-align: center; font-size: 24px; padding: 20px;">
+       <div> Please wait until 6:00 PM</div>
+        <img src="./img/Ffm_Nz_XEAEG0-4.jpg" width="240px" height="240px">
+    </div>
+
+    <!-- Main Content (Initially Hidden) -->
+    <div id="main-content" class="hidden-content" style="display: none;">
+        <!-- Add the rest of your content here -->
+        <section class="navbar-main">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top navHead">
+                <div class="container">
+                    <img src="" /> <!-- Missing Part -->
+                </div>
+            </nav>
+        </section>
+
+        <div class="myGif1">
+            <img src="./img/balls.gif">
+        </div>
+
+        <div class="myGif2">
+            <img src="./img/60Hym-unscreen.gif">
+        </div>
+
+        <div class="mainTextSection" id="myAbout">
+            <div class="textsection1">
+                <img src="./img/images.jpeg" alt="">
+            </div>
+            <div class="textsection2">
+                <div class="text1">
+                    <h1>Gayathri</h1>
+                    <h2>Princess of Cat island</h2>
+                </div>
+                <div class="text2">
+                    <img src="./img/Group 123.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Section Start -->
+        <div class="video-box">
+            <div class="player" id="player">
+                <video class="player_video viewer" src="./img/video2.mp4" poster="./img/Capture.PNG"></video>
+                <div class="videoDiv">
+                    <img class="videoImg" src="./img/pngegg.png" alt="">
+                </div>
+                <div class="player_controls">
+                    <!-- Your video controls here -->
+                </div>
+            </div>
+        </div>
+        <!-- Video Section End -->
+
+        <!-- Gallery Start-->
+        <div class="gallery" id="myGallery">
+            <!-- Your gallery images here -->
+        </div>
+        <!-- Gallery End-->
+
+        <!-- Footer Section Start -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-img">
+                    <span><img src="./footer/img/birth day footer.png" width=100% alt=""></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <section class="copyright">
+        <div class=" manythings">
+            <div class="copy-text">
+                <div class="more">
+                    <h1>Stay happy forever junior.</h1>
+                </div>
+            </div>
+
+            <div class="copy-img">
+                <img src="./footer/img/STAR.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+    
+    <a class="topBtn" id="button"><i class="fa-solid fa-arrow-up"></i></a>
+    <a class="topBtn1 bgDark" id="button1"><i class="fa-solid fa-sun"></i></a>
+
+    <!--   *****   JQuery Link   *****   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="./gallery_parallax/js/script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/video.js"></script>
+    <script src="./js/scrollBtn.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Function to check the time and display content
+        function checkTime() {
+            var currentDate = new Date();
+            var currentHour = currentDate.getHours();
+            var currentMinute = currentDate.getMinutes();
+
+            // 6:00 PM is 18:00 in 24-hour format
+            if (currentHour < 18 || (currentHour === 18 && currentMinute === 0)) {
+                // Show the "Please wait" message
+                document.getElementById("wait-message").style.display = "block";
+                // Hide the main content
+                document.getElementById("main-content").style.display = "none";
+            } else {
+                // Hide the "Please wait" message
+                document.getElementById("wait-message").style.display = "none";
+                // Show the main content
+                document.getElementById("main-content").style.display = "block";
+            }
+        }
+
+        // Run the check time function when the page loads
+        window.onload = checkTime;
+    </script>
+</body>
+
+</html>
